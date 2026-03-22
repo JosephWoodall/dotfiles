@@ -10,12 +10,9 @@ paru -Syu --noconfirm
 
 echo "==> Installing development tools and applications..."
 paru -S --needed --noconfirm \
-        git stow neovim base-devel fzf ripgrep \
+        git micro base-devel fzf ripgrep \
         python python-pip python-virtualenv \
-        google-chrome steam zed
-
-echo "==> Symlinking dotfiles with GNU Stow..."
-cd ~/dotfiles
-stow nvim  
+        google-chrome steam zed \
+	github-cli
 
 echo "==> Deployment Complete! Your environment is ready."
