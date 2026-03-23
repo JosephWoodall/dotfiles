@@ -12,7 +12,10 @@ echo "==> Installing development tools and applications..."
 paru -S --needed --noconfirm \
         git micro base-devel fzf ripgrep \
         python python-pip python-virtualenv \
-        google-chrome steam zed \
-	github-cli
+        google-chrome steam zed opencode-bin \
+		github-cli antigravity
+
+echo "==> Vacuuming orphan programs..."
+paru -c
 
 echo "==> Deployment Complete! Your environment is ready."
