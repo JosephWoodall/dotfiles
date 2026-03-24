@@ -13,9 +13,9 @@ paru -S --needed --noconfirm \
         git micro base-devel fzf ripgrep \
         python python-pip python-virtualenv \
         google-chrome steam zed opencode-bin \
-		github-cli antigravity
+		github-cli antigravity llama.cpp
 
 echo "==> Vacuuming orphan programs..."
-paru -c
+paru -c --noconfirm
 
 echo "==> Deployment Complete! Your environment is ready."
