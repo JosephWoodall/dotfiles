@@ -14,7 +14,8 @@ paru -S --needed --noconfirm \
         python python-pip python-virtualenv \
         google-chrome steam zed opencode-bin \
 		github-cli antigravity \
-		llama.cpp
+		llama.cpp \
+		lib32-libldap
 
 echo "==> Vacuuming orphan programs..."
 paru -c --noconfirm
