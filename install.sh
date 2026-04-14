@@ -13,9 +13,6 @@ paru -S --needed --noconfirm \
         gemini-cli \
         lib32-libldap
 
-echo "==> Installing RustDesk..."
-paru -S --needed --noconfirm rustdesk-bin
-
 echo "==> Vacuuming orphan programs..."
 paru -c --noconfirm
 
