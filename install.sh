@@ -10,7 +10,7 @@ paru -S --needed --noconfirm \
         python python-pip python-virtualenv \
         google-chrome steam \
         github-cli antigravity \
-        gemini-cli \
+        gemini-cli claude-code \
         lib32-libldap
 
 echo "==> Vacuuming orphan programs..."
